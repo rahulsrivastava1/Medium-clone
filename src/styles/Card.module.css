@@ -1,0 +1,17 @@
+.card {
+  width: 25%;
+  min-height: 30%;
+  background-color: #001041;
+  color: #fff;
+  border-radius: 7px;
+  padding: 1rem;
+}
+
+.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0.5rem;
+}

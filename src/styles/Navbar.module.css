@@ -1,0 +1,32 @@
+.mainnav ul {
+  display: flex;
+  list-style: none;
+}
+
+.mainnav ul li {
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.btn_container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.btn {
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 7px;
+  background-color: tomato;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login_link {
+  margin: 1rem;
+  font-size: 1.1rem;
+}

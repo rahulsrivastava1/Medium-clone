@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.left {
+  display: flex;
+  width: 50%;
+}
+
+.left .form {
+  margin: auto;
+}
+
+.left .form_group {
+  padding: 1rem;
+}
+
+.left .form .label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.text_field {
+  height: 2.5rem;
+  width: 30rem;
+  background-color: #fff;
+  color: #000;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  height: 2.5rem;
+  width: 10rem;
+  border-radius: 7px;
+  background-color: tomato;
+  border: none;
+  margin-left: 1.25rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.link {
+  margin-top: 2rem;
+  color: blue;
+  margin-right: 1rem;
+}
+
+.error {
+  color: red;
+}

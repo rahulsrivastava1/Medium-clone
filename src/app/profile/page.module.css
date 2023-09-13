@@ -1,0 +1,23 @@
+.profile_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  margin-top: 2rem;
+}
+
+.details {
+  margin-top: 2rem;
+  line-height: 3rem;
+}
+
+.blog_list {
+  margin-top: 3rem;
+  width: 50%;
+}
