@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import styles from "../../styles/page.module.css";
@@ -8,9 +8,14 @@ const Write = () => {
   const initialState = {
     title: "",
     description: "",
-    author: sessionStorage.getItem("username"),
-    email: sessionStorage.getItem("email"),
+    author: "",
+    email: "",
   };
+
+  useEffect(() => {
+    initialState.author = sessionStorage.getItem("username");
+    initialState.email = sessionStorage.getItem("email");
+  }, []);
 
   const [blog, setBlog] = useState(initialState);
   const [formErrors, setFormErrors] = useState({});
