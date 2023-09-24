@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/blogs")
+      .get(`${process.env.NEXT_PUBLIC_BASEURL}/blogs`)
       .then((res) => setBlogs(res.data))
       .catch((err) => console.log(err));
   }, []);
