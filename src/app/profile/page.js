@@ -86,7 +86,7 @@ const Profile = () => {
 
 export default Profile;
 
-export const generateMetadata = () => {
+const generateMetadata = () => {
   return {
     title: "Coder Blog Center - Profile",
   };

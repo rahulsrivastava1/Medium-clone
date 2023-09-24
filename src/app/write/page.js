@@ -101,7 +101,7 @@ const Write = () => {
 
 export default Write;
 
-export const generateMetadata = () => {
+const generateMetadata = () => {
   return {
     title: "Coder Blog Center - Write a Blog",
   };

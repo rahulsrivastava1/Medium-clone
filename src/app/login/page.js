@@ -124,7 +124,7 @@ const Login = () => {
 
 export default Login;
 
-export const generateMetadata = () => {
+const generateMetadata = () => {
   return {
     title: "Coder Blog Center - Login Page",
   };

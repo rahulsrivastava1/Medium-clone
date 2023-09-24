@@ -106,7 +106,7 @@ const Contact = () => {
 
 export default Contact;
 
-export const generateMetadata = () => {
+const generateMetadata = () => {
   return {
     title: "Coder Blog Center - Contact",
   };

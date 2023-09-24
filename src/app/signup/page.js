@@ -165,7 +165,7 @@ const Signup = () => {
 
 export default Signup;
 
-export const generateMetadata = () => {
+const generateMetadata = () => {
   return {
     title: "Coder Blog Center - Signup Page",
   };
