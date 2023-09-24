@@ -27,7 +27,7 @@ const Signup = () => {
 
   const apiCall = () => {
     axios
-      .post("http://localhost:3000/api/signup", formValues, {
+      .post(`${process.env.NEXT_PUBLIC_BASEURL}/signup`, formValues, {
         headers: {
           "Content-Type": "application/json",
         },

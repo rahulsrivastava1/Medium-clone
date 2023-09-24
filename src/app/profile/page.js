@@ -20,7 +20,7 @@ const Profile = () => {
       if (email) {
         axios
           .post(
-            "http://localhost:3000/api/profile",
+            `${process.env.NEXT_PUBLIC_BASEURL}/profile`,
             { email },
             {
               headers: {
@@ -33,7 +33,7 @@ const Profile = () => {
       }
       axios
         .post(
-          "http://localhost:3000/api/userblogs",
+          `${process.env.NEXT_PUBLIC_BASEURL}/userblogs`,
           { email },
           {
             headers: {

@@ -41,7 +41,7 @@ const Write = () => {
 
   const apiCall = () => {
     axios
-      .post("http://localhost:3000/api/write", blog)
+      .post(`${process.env.NEXT_PUBLIC_BASEURL}/write`, blog)
       .then((res) => {
         const notify = () => toast(res.data.message);
         notify();
