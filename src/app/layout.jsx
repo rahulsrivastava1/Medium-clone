@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+const metadata = {
   title: "Coder Blog Center",
   description: "Medium clone - Best used for Writing Tech Blog",
   keywords: "NextJS CoderBlog Blog Coder",
