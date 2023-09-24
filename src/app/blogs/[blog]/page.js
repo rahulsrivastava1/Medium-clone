@@ -57,7 +57,7 @@ const blog = ({ params }) => {
 
 export default blog;
 
-export const generateMetadata = () => {
+const generateMetadata = () => {
   return {
     title: "Coder Blog Center - Blog",
   };
